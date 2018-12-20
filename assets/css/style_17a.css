@@ -1,0 +1,99 @@
+
+html {
+    background-color: #EDC;
+    color: black;
+    font-family: helvetica, verdana, sans-serif;
+}
+body {
+}
+
+.navbar {
+    background-color: slategray;
+    color: white;
+    height: 2.3em;
+}
+
+.navbar ul, li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    float: left;
+}
+
+.navbar ul {
+    background-color: darkgray;
+    color: black;
+    height: 2em;
+    width: 100%
+}
+
+.navbar li {
+    position: relative;
+}
+
+.navbar li a {
+    display: block;
+    line-height: 2em;
+    padding: 0 1em;
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+    background-color: slategray;
+    height: 2em;
+    padding-top: .3em;
+    position: relative;
+    top: -.3em;
+    border-radius: .3em .3em 0 0;
+}
+
+.navbar .active, a:hover .active {
+    background-color: gray;
+    color: black;
+    padding-top: .3em;
+    border-radius: .3em .3em 0 0;
+    position: relative;
+    top: -.3em;
+    border-bottom: .3em solid black;
+    cursor: crosshair;
+}
+
+.navbar ul.sub {
+    float: none;
+    background-color: slategray;
+    width: auto;
+    height: auto;
+    position: absolute;
+    display: none;
+    max-height: 0;
+    transition: max-height 5s ease-in-out;
+    overflow: hidden;
+}
+
+.navbar ul.sub li {
+    float: none;
+}
+
+.navbar ul.head li:hover ul {
+    display: block;
+    max-height: 10em;
+}
+
+.navbar ul.sub li a {
+    border-bottom: 1px solid white;
+    padding: .2em 1em;
+    white-space: nowrap;
+    top: 0;
+}
+
+.navbar .sub li:last-child a {
+    border-bottom: none;
+}
+
+.navbar .sub li a:hover {
+    background-color: darkgray;
+    height: 2em;
+    padding-top: .2em;
+    top: 0;
+    border-radius: 0;
+}
