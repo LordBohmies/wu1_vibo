@@ -1,0 +1,108 @@
+/*
+Collection of the colours used all over the website
+*/
+
+/******************************************/
+/**************CUSTOM*COLOURS**************/
+/******************************************/
+.primary {
+    background-color: rgb(207, 92, 54) !important;
+    color: #FFFFE9;
+}
+
+.bg-transparent {
+    background-color: transparent;
+}
+/******************************************/
+/***************SOCIAL*MEDIA***************/
+/******************************************/
+/* #7289da */
+.dc-bg-primary  {
+    background-color: #7289da;
+    background-color: hsla(227, 58%, 65%, 1);
+}
+.dc-c-primary {
+    color: #7289da;
+    color: hsla(227, 58%, 65%, 1);
+}
+/* #3C5A99 */
+.fb-bg-primary {
+    background-color: #3C5A99;
+    background-color: hsla(221, 44%, 42%, 1);
+}
+.fb-c-primary {
+    color: #3C5A99;
+    color: hsla(221, 44%, 42%, 1);
+}
+/* #2f2f2f */
+.gh-bg-primary   {
+    background-color: #2f2f2f;
+    background-color: hsla(0, 0%, 18%, 1);
+}
+.gh-c-primary {
+    color: #2f2f2f;
+    color: hsla(0, 0%, 18%, 1);
+}
+/* #405DE6 */
+.ig-bg-primary{
+    background-color: #405DE6;
+    background-color: hsla(230, 77%, 58%, 1);
+}
+.ig-c-primary {
+    color: #405DE6;
+    color: hsla(230, 77%, 58%, 1);
+}
+/* #0077B5 */
+.li-bg-primary {
+    background-color: #0077B5;
+    background-color: hsla(203, 100%, 35%, 1);
+}
+.li-c-primary {
+    color: #0077B5;
+    color: hsla(203, 100%, 35%, 1);
+}
+/* #00AFF0 */
+.sk-bg-primary    {
+    background-color: #00AFF0;
+    background-color: hsla(196, 100%, 47%, 1);
+}
+.sk-c-primary {
+    color: #00AFF0;
+    color: hsla(196, 100%, 47%, 1);
+}
+/* #171A21 */
+.st-bg-primary    {
+    background-color: #171A21;
+    background-color: hsla(222, 18%, 11%, 1);
+}
+.st-c-primary {
+    color: #171A21;
+    color: hsla(222, 18%, 11%, 1);
+}
+/* #6441a4 */
+.tv-bg-primary   {
+    background-color: #6441a4;
+    background-color: hsla(261, 43%, 45%, 1);
+}
+.tv-c-primary {
+    color: #6441a4;
+    color: hsla(261, 43%, 45%, 1);
+}
+/* #1DA1F2 */
+.tw-bg-primary  {
+    background-color: #1DA1F2;
+    background-color: hsla(203, 89%, 53%, 1);
+}
+.tw-c-primary {
+    color: #1DA1F2;
+    color: hsla(203, 89%, 53%, 1);
+}
+/* #FF0000 */
+.yt-bg-primary  {
+    background-color: #FF0000;
+    background-color: hsla(0, 100%, 50%, 1);
+}
+.yt-c-primary {
+    color: #FF0000;
+    color: hsla(0, 100%, 50%, 1);
+}
